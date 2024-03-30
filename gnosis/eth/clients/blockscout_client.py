@@ -44,7 +44,7 @@ class BlockscoutClient:
         EthereumNetwork.ACALA_NETWORK: "https://blockscout.acala.network/graphiql",
         EthereumNetwork.KARURA_NETWORK_TESTNET: "https://blockscout.karura.network/graphiql",
         EthereumNetwork.ASTAR: "https://blockscout.com/astar/graphiql",
-        EthereumNetwork.JAPAN_OPEN_CHAIN_MAINNET: "https://blockscout.com/shibuya/graphiql", #SHIBUYA
+        EthereumNetwork.SHIDEN: "https://blockscout.com/shiden/graphiql",
         EthereumNetwork.EVMOS: "https://evm.evmos.org/graphiql",
         EthereumNetwork.EVMOS_TESTNET: "https://evm.evmos.dev/graphiql",
         EthereumNetwork.KCC_MAINNET: "https://scan.kcc.io/graphiql",
@@ -96,6 +96,7 @@ class BlockscoutClient:
         EthereumNetwork.LISK_SEPOLIA_TESTNET: "https://sepolia-blockscout.lisk.com/graphiql",
         EthereumNetwork.ZKATANA: "https://zkatana.blockscout.com/graphiql",
         EthereumNetwork.ASTAR_ZKEVM: "https://astar-zkevm.blockscout.com/graphiql",
+        EthereumNetwork.ASTAR_ZKYOTO: "https://astar-zkyoto.blockscout.com/graphiql",
     }
 
     def __init__(self, network: EthereumNetwork):
