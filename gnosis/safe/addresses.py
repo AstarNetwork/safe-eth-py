@@ -1279,6 +1279,13 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
     EthereumNetwork.ASTAR_ZKEVM: [
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 17499, "1.3.0+L2"),
         ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 17502, "1.3.0"),
+        ("0x41675C099F32341bf84BFc5382aF534df5C7461a", 2802306, "1.4.1"),  # v1.4.1
+        (
+            "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762",
+            2802301,
+            "1.4.1+L2",
+        ),  # v1.4.1+L2
+    ],
     EthereumNetwork.RSS3_VSL_SEPOLIA_TESTNET: [
         ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 2297637, "1.3.0"),  # v1.3.0
         (
@@ -1467,14 +1474,6 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         (
             "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762",
             6006129,
-            "1.4.1+L2",
-        ),  # v1.4.1+L2
-    ],
-    EthereumNetwork.ASTAR_ZKEVM: [
-        ("0x41675C099F32341bf84BFc5382aF534df5C7461a", 2802306, "1.4.1"),  # v1.4.1
-        (
-            "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762",
-            2802301,
             "1.4.1+L2",
         ),  # v1.4.1+L2
     ],
@@ -2238,6 +2237,7 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.ZKATANA: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 34),  # v1.3.0
+    ],
     EthereumNetwork.POLYGON_BLACKBERRY: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 765141),  # v1.3.0
         ("0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC", 1194297),  # v1.3.0
@@ -2259,6 +2259,8 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.ASTAR_ZKEVM: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 17488),  # v1.3.0
+        ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 2802278),  # v1.4.1
+    ],
     EthereumNetwork.RSS3_VSL_SEPOLIA_TESTNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 2297578),  # v1.3.0
     ],
@@ -2341,9 +2343,6 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.AMOY: [
         ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 6005942),  # v1.4.1
-    ],
-    EthereumNetwork.ASTAR_ZKEVM: [
-        ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 2802278),  # v1.4.1
     ],
     EthereumNetwork.HOLESKY: [
         ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 100413),  # v1.4.1
